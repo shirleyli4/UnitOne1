@@ -2,7 +2,7 @@ package com.company;
 
 public class Printing {
 
-    public static void Main (String[] args) {
+    public static void main (String[] args) {
 	// write your code here
         System.out.println("8:22");
         System.out.println("09/12/19");
@@ -12,6 +12,6 @@ public class Printing {
         System.out.print("It is a great ");
         System.out.print("time to be a ");
         System.out.print("computer programmer!");
-        
+
     }
 }
