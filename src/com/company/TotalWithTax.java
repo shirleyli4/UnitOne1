@@ -1,10 +1,13 @@
 package com.company;
-
+import java.util.Scanner;
 public class TotalWithTax {
     public static void main (String[] args){
-        final double TAXRATE = 0.0825;
+        Scanner input = new Scanner(System.in);
+        System.out.println("Please enter the tax rate.");
+        final double TAXRATE = input.nextDouble();
         double price,tax,total;
-        price = 52.75;
+        System.out.println("Please enter the price.");
+        price =input.nextDouble();
         tax = TAXRATE*price;
         total = price + tax;
         System.out.println("Price: $"+ price);
