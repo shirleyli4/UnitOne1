@@ -5,7 +5,7 @@ public class RoundNegatives {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter a negaive decimal number");
         double decinum = input.nextDouble();
-        double decinum1 = (int)(decinum+0.5);
+        double decinum1 = (int)(decinum-0.5);
         System.out.println(decinum+" rounded to a whole number is "+ decinum1);
     }
 }
