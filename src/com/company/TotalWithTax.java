@@ -13,5 +13,7 @@ public class TotalWithTax {
         System.out.println("Price: $"+ price);
         System.out.println("Sales Tax: $"+ tax);
         System.out.println("Total: $"+ total);
+
+
     }
 }
